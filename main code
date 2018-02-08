@@ -1,0 +1,44 @@
+inport winsound
+#this programe helps u what song to listen to depending on your current mood
+['fimmler faces ' , 'wake me up',  'A team', 'love is a losing game']  # list for sad songs
+sad song count: 4
+
+sad song at 1 = wake me up 
+sad song at 2 = A team
+sad song at 3 = love is a losing game
+sad song at 4 = fimmler faces
+sub [1:4]
+
+inport random
+
+
+
+['happy' , 'i feel good' , 'we will rock you' , 'uptown funk'] #list for happy songs 
+happy song count: 4
+
+happy song at 1 = uptown funk
+happy song at 2 = we will rock you 
+happy song at 3 = i feel good 
+happy song at 4 = happy
+sub [1:4
+
+inport pickone
+ecure_random = random.SystemRandom()
+print(secure_pickone.choice(happy))
+
+
+
+sad = ['fimmler faces', 'wake me up', 'A team', 'love is a losing game']
+secure_random = random.SystemRandom()
+print(secure_random.choice(sad))       #got code from https://stackoverflow.com/questions/306400/how-to-randomly-select-an-item-from-a-list made change to fit me input
+
+choice = input("what mood are you in ")     # options happy and sad
+if choice = sad:
+ random       winsound.playsound("sad", winsound.SND_FILENAME) # sound file i learned from https://www.youtube.com/watch?v=8v6xkT0lLaQ&list=PL-CrepeJ9RXJeOfb1Qs7dDfLmpVhvNz3c&index=14
+ 
+
+if choice = happy:
+ pickone     winsound.playsound("happy", winsound.SND_FILENAME)
+
+
+
